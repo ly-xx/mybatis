@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.daqsoft.lxx.mapper.TableMapper">
+
+    <!--公共sql提取-->
+    <sql id="commonSql">
+        `${f.fieldName}` ${f.fieldType}(${f.fieldLength})
+    </sql>
+
+    <!--创建表-->
+    <select id="createTable">
+        CREATE TABLE `${key}` (
+        <foreach collection="fields" separator="," item="f">
+           <include refid="commonSql"/>
+        </foreach>
+        )
+    </select>
+
+    <!--更新表字段-->
+    <select id="updateFields">
+        <foreach collection="fields" separator=";" item="f">
+            ALTER TABLE `${key}` modify <include refid="commonSql"/>
+        </foreach>
+    </select>
+
+    <!--添加表字段-->
+    <select id="addFields">
+        <foreach collection="fields" separator=";" item="f">
+            ALTER TABLE `${key}` ADD <include refid="commonSql"/>
+        </foreach>
+    </select>
+
+    <!--删除表字段-->
+    <select id="dropFields">
+        <foreach collection="fields" item="f" separator=";">
+            alter table `${key}` drop `${f.fieldName}`
+        </foreach>
+    </select>
+
+    <!-- 根据表名查询表的结构 -->
+    <select id="findTableEnsembleByTableName" resultType="java.util.Map">
+        select * from information_schema.columns where table_name = #{tableName} and TABLE_SCHEMA = #{databaseName}
+    </select>
+
+    <!--获取某个数据库中的所有表名-->
+    <select id="getAllTableNameByDatabaseName" resultType="java.lang.String">
+        SELECT table_name FROM information_schema.tables WHERE table_schema = #{databaseName}
+        AND table_type = 'base table'
+    </select>
+</mapper>
