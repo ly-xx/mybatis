@@ -67,4 +67,8 @@ public interface TableMapper {
      * @return 表名集合
      */
     List getAllTableNameByDatabaseName(String databaseName);
+
+    void update(@Param(value = "id") String id,
+                @Param(value = "tabName") String tabName,
+                @Param(value = "fieldMap") Map fieldMap);
 }

@@ -97,4 +97,10 @@ public class TableCtrl {
     public Object getAllTableNameByDatabaseName(String databaseName) {
         return service.getTablesByDatabase(databaseName);
     }
+
+    @RequestMapping(value = "update")
+    public Object update(String databaseName) {
+        service.update();
+        return "success";
+    }
 }

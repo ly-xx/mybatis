@@ -47,4 +47,12 @@
         SELECT table_name FROM information_schema.tables WHERE table_schema = #{databaseName}
         AND table_type = 'base table'
     </select>
+
+    <update id="update" >
+        UPDATE `${tabName}` SET
+        <foreach collection="fieldMap.keys" separator="," item="key">
+            ${key} = #{fieldMap[${key}]}
+        </foreach>
+        WHERE id = #{id}
+    </update>
 </mapper>

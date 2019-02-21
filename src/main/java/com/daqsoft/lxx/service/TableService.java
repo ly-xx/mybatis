@@ -5,6 +5,7 @@ import com.daqsoft.lxx.util.MybatisManageUtils;
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.stereotype.Service;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -85,5 +86,24 @@ public class TableService {
         List list = mybatisTables.getAllTableNameByDatabaseName(databaseName);
         MybatisManageUtils.closeSession(sqlSession);
         return list;
+    }
+
+    public void update() {
+        SqlSession sqlSession = MybatisManageUtils.getSqlSession();
+        try {
+            Map fieldsMap = new HashMap<>();
+            fieldsMap.put("name", "册数");
+            fieldsMap.put("age", 16);
+            TableMapper mybatisTables = sqlSession.getMapper(TableMapper.class);
+            fieldsMap.remove("id");
+            mybatisTables.update("1", "test", fieldsMap);
+            sqlSession.commit();
+        }catch (Exception e){
+            e.printStackTrace();
+        }finally {
+            sqlSession.close();
+        }
+
+
     }
 }
