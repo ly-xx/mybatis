@@ -1,0 +1,5 @@
+com\lxx\test\TestApplication.class
+com\lxx\test\service\TableService.class
+com\lxx\test\util\MybatisManageUtils.class
+com\lxx\test\controller\TableCtrl.class
+com\lxx\test\mapper\TableMapper.class
