@@ -1,84 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3a58284-050e-4c7c-830b-81f38ebab1d3" name="Default" comment="添加mybatis逆向生成代码插件（根据数据库表信息反向生成实体和mapper文件）">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_gitee_sunchenbin_mybatis_actable_mybatis_enhance_actable_1_2_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_37.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_37.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto/src/main/java/com/lxx/auto/base/BaseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto/src/main/java/com/lxx/auto/controller/AddressController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto/src/main/java/com/lxx/auto/entity/TestAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto/src/main/java/com/lxx/auto/mapper/AddressMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto/src/main/java/com/lxx/auto/service/AddressService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto/src/main/java/com/lxx/auto/service/impl/AddressServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto/src/main/resources/mapping/AddressMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mybatis/spring-mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/spring-mybatis.iml" afterDir="false" />
+    <list default="true" id="a3a58284-050e-4c7c-830b-81f38ebab1d3" name="Default" comment="利用actable完成mybatis自动建表、更新表结构">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto/target/classes/META-INF/auto.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto/target/classes/com/lxx/auto/AutoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto/target/classes/com/lxx/auto/base/BaseMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto/target/classes/com/lxx/auto/controller/AddressController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto/target/classes/com/lxx/auto/entity/TestAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto/target/classes/com/lxx/auto/mapper/AddressMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto/target/classes/com/lxx/auto/service/AddressService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto/target/classes/com/lxx/auto/service/impl/AddressServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto/target/classes/mapping/AddressMapper.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,7 +261,7 @@
       <workItem from="1597829054826" duration="244000" />
       <workItem from="1597888125634" duration="9386000" />
       <workItem from="1597918446959" duration="719000" />
-      <workItem from="1597990370729" duration="809000" />
+      <workItem from="1597990370729" duration="1058000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis操作数据库表">
       <created>1550222017163</created>
@@ -357,7 +291,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586413752970</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="利用actable完成mybatis自动建表、更新表结构">
+      <created>1597991330136</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597991330136</updated>
+    </task>
+    <task id="LOCAL-00006" summary="利用actable完成mybatis自动建表、更新表结构">
+      <created>1597991393145</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597991393146</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +328,8 @@
     <MESSAGE value="更新数据" />
     <MESSAGE value="mybatis查询插件" />
     <MESSAGE value="添加mybatis逆向生成代码插件（根据数据库表信息反向生成实体和mapper文件）" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加mybatis逆向生成代码插件（根据数据库表信息反向生成实体和mapper文件）" />
+    <MESSAGE value="利用actable完成mybatis自动建表、更新表结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="利用actable完成mybatis自动建表、更新表结构" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -392,66 +341,66 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="224" key="#xdebugger.evaluate/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597891666527" />
-    <state x="444" y="115" key="CommitChangelistDialog2" timestamp="1597991328600">
+    <state x="444" y="115" key="CommitChangelistDialog2" timestamp="1597991434604">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="444" y="115" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597991328600" />
+    <state x="444" y="115" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597991434604" />
     <state width="536" height="466" key="DebuggerActiveHint" timestamp="1597891411685">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="536" height="466" key="DebuggerActiveHint/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597891411685" />
-    <state width="1876" height="309" key="GridCell.Tab.0.bottom" timestamp="1597990606967">
+    <state width="1876" height="333" key="GridCell.Tab.0.bottom" timestamp="1597991413340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="309" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597990606967" />
-    <state width="1876" height="309" key="GridCell.Tab.0.center" timestamp="1597990606966">
+    <state width="1876" height="333" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597991413340" />
+    <state width="1876" height="333" key="GridCell.Tab.0.center" timestamp="1597991413340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="309" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597990606966" />
-    <state width="1876" height="309" key="GridCell.Tab.0.left" timestamp="1597990606966">
+    <state width="1876" height="333" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597991413340" />
+    <state width="1876" height="333" key="GridCell.Tab.0.left" timestamp="1597991413340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="309" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597990606966" />
-    <state width="1876" height="309" key="GridCell.Tab.0.right" timestamp="1597990606967">
+    <state width="1876" height="333" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597991413340" />
+    <state width="1876" height="333" key="GridCell.Tab.0.right" timestamp="1597991413340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="309" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597990606967" />
-    <state width="1876" height="309" key="GridCell.Tab.1.bottom" timestamp="1597903211787">
+    <state width="1876" height="333" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597991413340" />
+    <state width="1876" height="333" key="GridCell.Tab.1.bottom" timestamp="1597991413340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="309" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597903211787" />
-    <state width="1876" height="309" key="GridCell.Tab.1.center" timestamp="1597903211787">
+    <state width="1876" height="333" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597991413340" />
+    <state width="1876" height="333" key="GridCell.Tab.1.center" timestamp="1597991413340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="309" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597903211787" />
-    <state width="1876" height="309" key="GridCell.Tab.1.left" timestamp="1597903211787">
+    <state width="1876" height="333" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597991413340" />
+    <state width="1876" height="333" key="GridCell.Tab.1.left" timestamp="1597991413340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="309" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597903211787" />
-    <state width="1876" height="309" key="GridCell.Tab.1.right" timestamp="1597903211787">
+    <state width="1876" height="333" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597991413340" />
+    <state width="1876" height="333" key="GridCell.Tab.1.right" timestamp="1597991413340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="309" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597903211787" />
-    <state width="1876" height="309" key="GridCell.Tab.2.bottom" timestamp="1597903211788">
+    <state width="1876" height="333" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597991413340" />
+    <state width="1876" height="333" key="GridCell.Tab.2.bottom" timestamp="1597991413341">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="309" key="GridCell.Tab.2.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597903211788" />
-    <state width="1876" height="309" key="GridCell.Tab.2.center" timestamp="1597903211788">
+    <state width="1876" height="333" key="GridCell.Tab.2.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597991413341" />
+    <state width="1876" height="333" key="GridCell.Tab.2.center" timestamp="1597991413340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="309" key="GridCell.Tab.2.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597903211788" />
-    <state width="1876" height="309" key="GridCell.Tab.2.left" timestamp="1597903211788">
+    <state width="1876" height="333" key="GridCell.Tab.2.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597991413340" />
+    <state width="1876" height="333" key="GridCell.Tab.2.left" timestamp="1597991413340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="309" key="GridCell.Tab.2.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597903211788" />
-    <state width="1876" height="309" key="GridCell.Tab.2.right" timestamp="1597903211788">
+    <state width="1876" height="333" key="GridCell.Tab.2.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597991413340" />
+    <state width="1876" height="333" key="GridCell.Tab.2.right" timestamp="1597991413340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="309" key="GridCell.Tab.2.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597903211788" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1597991334369">
+    <state width="1876" height="333" key="GridCell.Tab.2.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597991413340" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1597991394800">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597991334369" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1597991394800" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1597894629112">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
